@@ -38,13 +38,13 @@ BASE_URL = [
   "https://www.shiksha.com/college/eswar-college-of-engineering-guntur-29073",
   "https://www.shiksha.com/college/mother-teresa-college-of-management-and-computer-applications-ranga-reddy-62131",
   "https://www.shiksha.com/college/bharti-vidya-mandir-college-of-management-education-gwalior-70995",
-  "https://www.shiksha.com/college/quad-ai-school-of-technology-and-management-patna-240132",
-  "https://www.shiksha.com/college/svpm-s-institute-of-management-malegaon-pune-21155",
-  "https://www.shiksha.com/college/st-michael-college-of-engineering-and-technology-tamil-nadu-other-23013",
-  "https://www.shiksha.com/college/st-peter-s-engineering-college-medchal-hyderabad-36141",
-  "https://www.shiksha.com/college/school-of-management-studies-punjabi-university-patiala-42938",
-  "https://www.shiksha.com/college/scad-college-of-engineering-and-technology-tirunelveli-61713",
-  "https://www.shiksha.com/college/sri-gokula-college-of-arts-science-and-management-studies-karnataka-other-67285",
+  # "https://www.shiksha.com/college/quad-ai-school-of-technology-and-management-patna-240132",
+  # "https://www.shiksha.com/college/svpm-s-institute-of-management-malegaon-pune-21155",
+  # "https://www.shiksha.com/college/st-michael-college-of-engineering-and-technology-tamil-nadu-other-23013",
+  # "https://www.shiksha.com/college/st-peter-s-engineering-college-medchal-hyderabad-36141",
+  # "https://www.shiksha.com/college/school-of-management-studies-punjabi-university-patiala-42938",
+  # "https://www.shiksha.com/college/scad-college-of-engineering-and-technology-tirunelveli-61713",
+  # "https://www.shiksha.com/college/sri-gokula-college-of-arts-science-and-management-studies-karnataka-other-67285",
 ]
 
 
