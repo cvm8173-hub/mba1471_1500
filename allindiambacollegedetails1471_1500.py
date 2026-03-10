@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/asia-pacific-institute-of-management-panipat-25127",
-  "https://www.shiksha.com/college/symbiosis-school-of-media-communication-symbiosis-international-bangalore-hosur-road-47836",
-  "https://www.shiksha.com/college/sapthagiri-college-of-engineering-dharmapuri-tamil-nadu-other-48882",
-  "https://www.shiksha.com/college/truba-college-of-science-and-technology-bhopal-58703",
-  "https://www.shiksha.com/university/sant-baba-bhag-singh-university-jalandhar-64897",
-  "https://www.shiksha.com/college/st-ann-s-degree-and-pg-college-for-women-mallapur-secunderabad-68413",
-  "https://www.shiksha.com/university/kk-modi-university-bhilai-152859",
-  "https://www.shiksha.com/college/thanthai-hans-roever-college-of-arts-and-science-tamil-nadu-other-4390",
-  "https://www.shiksha.com/college/virudhunagar-hindu-nadars-senthikumara-nadar-college-21517",
-  "https://www.shiksha.com/college/abul-quadir-jeelani-centre-for-post-graduate-studies-aqj-visakhapatnam-22389",
-  "https://www.shiksha.com/college/riet-jaipur-rajasthan-institute-of-engineering-and-technology-23206",
-  "https://www.shiksha.com/college/srk-institute-of-management-and-computer-education-anjar-69287",
-  "https://www.shiksha.com/college/g-and-r-institute-of-management-and-technology-bulandshahr-71639",
-  "https://www.shiksha.com/college/sanjivani-business-school-ahmednagar-212989",
-  "https://www.shiksha.com/university/saroj-international-university-lucknow-239322",
-  "https://www.shiksha.com/college/institute-of-management-and-research-ghaziabad-3271",
-  "https://www.shiksha.com/college/school-of-business-management-iftm-university-moradabad-20251",
-  "https://www.shiksha.com/college/jyothishmathi-institute-of-technology-and-science-karimnagar-20401",
-  "https://www.shiksha.com/college/vrs-and-yrn-college-andhra-pradesh-other-23102",
-  "https://www.shiksha.com/college/scms-institute-of-masscom-studies-sims-kochi-28779",
-  "https://www.shiksha.com/college/eswar-college-of-engineering-guntur-29073",
-  "https://www.shiksha.com/college/mother-teresa-college-of-management-and-computer-applications-ranga-reddy-62131",
-  "https://www.shiksha.com/college/bharti-vidya-mandir-college-of-management-education-gwalior-70995",
-  # "https://www.shiksha.com/college/quad-ai-school-of-technology-and-management-patna-240132",
-  # "https://www.shiksha.com/college/svpm-s-institute-of-management-malegaon-pune-21155",
-  # "https://www.shiksha.com/college/st-michael-college-of-engineering-and-technology-tamil-nadu-other-23013",
-  # "https://www.shiksha.com/college/st-peter-s-engineering-college-medchal-hyderabad-36141",
-  # "https://www.shiksha.com/college/school-of-management-studies-punjabi-university-patiala-42938",
-  # "https://www.shiksha.com/college/scad-college-of-engineering-and-technology-tirunelveli-61713",
-  # "https://www.shiksha.com/college/sri-gokula-college-of-arts-science-and-management-studies-karnataka-other-67285",
+  # "https://www.shiksha.com/college/asia-pacific-institute-of-management-panipat-25127",
+  # "https://www.shiksha.com/college/symbiosis-school-of-media-communication-symbiosis-international-bangalore-hosur-road-47836",
+  # "https://www.shiksha.com/college/sapthagiri-college-of-engineering-dharmapuri-tamil-nadu-other-48882",
+  # "https://www.shiksha.com/college/truba-college-of-science-and-technology-bhopal-58703",
+  # "https://www.shiksha.com/university/sant-baba-bhag-singh-university-jalandhar-64897",
+  # "https://www.shiksha.com/college/st-ann-s-degree-and-pg-college-for-women-mallapur-secunderabad-68413",
+  # "https://www.shiksha.com/university/kk-modi-university-bhilai-152859",
+  # "https://www.shiksha.com/college/thanthai-hans-roever-college-of-arts-and-science-tamil-nadu-other-4390",
+  # "https://www.shiksha.com/college/virudhunagar-hindu-nadars-senthikumara-nadar-college-21517",
+  # "https://www.shiksha.com/college/abul-quadir-jeelani-centre-for-post-graduate-studies-aqj-visakhapatnam-22389",
+  # "https://www.shiksha.com/college/riet-jaipur-rajasthan-institute-of-engineering-and-technology-23206",
+  # "https://www.shiksha.com/college/srk-institute-of-management-and-computer-education-anjar-69287",
+  # "https://www.shiksha.com/college/g-and-r-institute-of-management-and-technology-bulandshahr-71639",
+  # "https://www.shiksha.com/college/sanjivani-business-school-ahmednagar-212989",
+  # "https://www.shiksha.com/university/saroj-international-university-lucknow-239322",
+  # "https://www.shiksha.com/college/institute-of-management-and-research-ghaziabad-3271",
+  # "https://www.shiksha.com/college/school-of-business-management-iftm-university-moradabad-20251",
+  # "https://www.shiksha.com/college/jyothishmathi-institute-of-technology-and-science-karimnagar-20401",
+  # "https://www.shiksha.com/college/vrs-and-yrn-college-andhra-pradesh-other-23102",
+  # "https://www.shiksha.com/college/scms-institute-of-masscom-studies-sims-kochi-28779",
+  # "https://www.shiksha.com/college/eswar-college-of-engineering-guntur-29073",
+  # "https://www.shiksha.com/college/mother-teresa-college-of-management-and-computer-applications-ranga-reddy-62131",
+  # "https://www.shiksha.com/college/bharti-vidya-mandir-college-of-management-education-gwalior-70995",
+  "https://www.shiksha.com/college/quad-ai-school-of-technology-and-management-patna-240132",
+  "https://www.shiksha.com/college/svpm-s-institute-of-management-malegaon-pune-21155",
+  "https://www.shiksha.com/college/st-michael-college-of-engineering-and-technology-tamil-nadu-other-23013",
+  "https://www.shiksha.com/college/st-peter-s-engineering-college-medchal-hyderabad-36141",
+  "https://www.shiksha.com/college/school-of-management-studies-punjabi-university-patiala-42938",
+  "https://www.shiksha.com/college/scad-college-of-engineering-and-technology-tirunelveli-61713",
+  "https://www.shiksha.com/college/sri-gokula-college-of-arts-science-and-management-studies-karnataka-other-67285",
 ]
 
 
@@ -9254,7 +9254,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1471
+    c_count =1494
 
     try:
         for base_url in BASE_URL:
